@@ -11,7 +11,7 @@ import os
 from setuptools import setup, find_packages
 
 # --- import your package ---
-import {{ cookiecutter.repo_name }} as package
+import {{ cookiecutter.package_name }} as package
 
 if __name__ == "__main__":
     # --- Automatically generate setup parameters ---

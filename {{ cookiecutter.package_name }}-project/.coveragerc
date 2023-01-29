@@ -2,8 +2,8 @@
 # for more info: https://coverage.readthedocs.io/en/latest/config.html
 [run]
 omit =
-    {{ cookiecutter.repo_name }}/_version.py
-    {{ cookiecutter.repo_name }}/tests/*
+    {{ cookiecutter.package_name }}/_version.py
+    {{ cookiecutter.package_name }}/tests/*
 
 [report]
 # Regexes for lines to exclude from consideration

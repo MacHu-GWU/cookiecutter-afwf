@@ -2,11 +2,11 @@
 
 import os
 import pytest
-import {{ cookiecutter.repo_name }}
+import {{ cookiecutter.package_name }}
 
 
 def test_import():
-    _ = {{ cookiecutter.repo_name }}.wf
+    _ = {{ cookiecutter.package_name }}.wf
 
 
 if __name__ == "__main__":

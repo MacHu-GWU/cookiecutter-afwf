@@ -194,7 +194,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>{{ cookiecutter.repo_name }}</string>
+	<string>{{ cookiecutter.package_name }}</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -797,6 +797,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}-project</string>
+	<string>https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}-project</string>
 </dict>
 </plist>

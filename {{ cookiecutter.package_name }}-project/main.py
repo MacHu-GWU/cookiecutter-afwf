@@ -16,6 +16,6 @@ if dir_lib.exists():
     sys.path = [str(dir_lib), ] + sys.path
 
 if __name__ == "__main__":
-    from {{ cookiecutter.repo_name }} import wf
+    from {{ cookiecutter.package_name }} import wf
 
     wf.run(debug=True)

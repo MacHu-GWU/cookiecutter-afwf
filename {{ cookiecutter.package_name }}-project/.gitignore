@@ -1,6 +1,6 @@
 # User Settings
-{{ cookiecutter.repo_name }}.egg-info/
-{{ cookiecutter.repo_name }}-*/
+{{ cookiecutter.package_name }}.egg-info/
+{{ cookiecutter.package_name }}-*/
 tmp/
 
 requirements-main.txt
