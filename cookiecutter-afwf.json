@@ -1,0 +1,13 @@
+{
+    // the python package name, use lowercase, digits, and underscore only
+    // this would be the name for ``pip install ${package_name}``
+    "package_name": "afwf_example",
+    // your GitHub username, this will be used to generate badge links
+    "github_username": "MacHu-GWU",
+    // the Package author's name, this will be used to generate LICENSE file
+    "author_name": "Sanhe Hu",
+    // the Package author's name, this will be used to generate LICENSE file
+    "author_email": "husanhe@gmail.com",
+    // PLEASE IGNORE THIS, THIS IS JUST A PLACE HOLDER
+    "_please_ignore_this": null
+}
