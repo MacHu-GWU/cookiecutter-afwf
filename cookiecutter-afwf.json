@@ -8,6 +8,8 @@
     "author_name": "Sanhe Hu",
     // the Package author's name, this will be used to generate LICENSE file
     "author_email": "husanhe@gmail.com",
+    // the Alfred Workflow directory
+    "dir_workflow": "/Users/sanhehu/Documents/Alfred-Preferences/Alfred.alfredpreferences/workflows/user.workflow.BE825014-E97C-4213-BEFE-E652C1C83974",
     // PLEASE IGNORE THIS, THIS IS JUST A PLACE HOLDER
     "_please_ignore_this": null
 }
