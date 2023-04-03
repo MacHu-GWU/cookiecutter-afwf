@@ -127,7 +127,7 @@ def format_ruler(
     msg = f" {msg} "
     left_pad = char * left_padding
     right_pad = char * right_padding
-    s = f"{pipe * nest}{corner}{left_pad}{msg:{char}{align}{length}}{right_pad}{corner}"
+    s = f"{pipe * nest}{corner}{left_pad}{msg:{char}{align}{length{% raw %}}}{% endraw %}{right_pad}{corner}"
     return s
 
 

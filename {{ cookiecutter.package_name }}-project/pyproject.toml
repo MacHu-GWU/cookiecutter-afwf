@@ -7,7 +7,7 @@ authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"]
 
 [tool.poetry.dependencies]
 python = "3.8.*"
-afwf = "0.2.2"
+afwf = "0.3.1"
 attrs = "21.4.0"
 attrs_mate = "1.0.2"
 pathlib_mate = " 1.2.1"
