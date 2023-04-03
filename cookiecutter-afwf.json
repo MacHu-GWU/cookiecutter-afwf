@@ -1,15 +1,15 @@
 {
     // the python package name, use lowercase, digits, and underscore only
     // this would be the name for ``pip install ${package_name}``
-    "package_name": "your_package_name",
+    "package_name": "afwf_genpass",
     // your GitHub username, this will be used to generate badge links
-    "github_username": "your_github_username",
+    "github_username": "MacHu-GWU",
     // the Package author's name, this will be used to generate LICENSE file
-    "author_name": "Firstname Lastname",
+    "author_name": "Sanhe Hu",
     // the Package author's name, this will be used to generate LICENSE file
-    "author_email": "name@email.com",
+    "author_email": "husanhe@gmail.com",
     // the Alfred Workflow directory
-    "dir_workflow": "/Users/username/path/to/Alfred.alfredpreferences/workflows/user.workflow.ABCD1234-A1B2-C3D4-E5F6-A1B2C3D4E5F6",
+    "dir_workflow": "/Users/sanhehu/Documents/Alfred-Preferences/Alfred.alfredpreferences/workflows/user.workflow.AAC57219-68C9-40D9-9DC9-01F9633A426C",
     // PLEASE IGNORE THIS, THIS IS JUST A PLACE HOLDER
     "_please_ignore_this": null
 }
