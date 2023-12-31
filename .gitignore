@@ -1,6 +1,5 @@
 # User Settings
 tmp/
-cookiecutter.json
 
 requirements-main.txt
 requirements-dev.txt
