@@ -47,19 +47,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>3A99C445-7D87-4E68-AFEB-5BCF832A624A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>49C73068-72F6-4117-B35E-9B17C5BDAC60</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>3D612075-778A-4380-9A57-7F68CD611C4B</key>
 		<array>
 			<dict>
@@ -113,6 +100,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4F42FE89-D560-4F7A-A065-9AA044F5F664</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49C73068-72F6-4117-B35E-9B17C5BDAC60</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC763A34-8198-4C21-92AB-F42CD7BAB468</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>87E1BBD9-44FE-4B2B-85C6-74D97F2A0CD1</key>
 		<array>
 			<dict>
@@ -151,7 +161,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>9D46894F-2C87-4626-807D-FC3B0E0CE6E4</key>
+		<key>A28AF17A-0C73-4449-AC00-B431E49D2DB3</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -163,19 +173,12 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>A2CB6160-23D0-41E3-ABF9-4CC16F566F7D</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>AC763A34-8198-4C21-92AB-F42CD7BAB468</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>3202B106-1DAC-4F1C-A5D2-0F6E6FB6C13B</string>
+				<string>49C73068-72F6-4117-B35E-9B17C5BDAC60</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -195,19 +198,6 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>76DC8B24-AA7F-46D1-9300-0BBFE2FFB4B9</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>BDADAC06-9A41-4493-9F92-FF209358E311</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>49C73068-72F6-4117-B35E-9B17C5BDAC60</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -259,6 +249,55 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>afwf-example-open-url</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>please wait ...</string>
+				<key>script</key>
+				<string>/Users/sanhehu/.pyenv/shims/python3.8 main.py 'open_url {query}'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Open Url ...</string>
+				<key>title</key>
+				<string>afwf-example-open-url</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>3D612075-778A-4380-9A57-7F68CD611C4B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -304,55 +343,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>2</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>keyword</key>
-				<string>afwf-example-open-url</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>please wait ...</string>
-				<key>script</key>
-				<string>/Users/sanhehu/.pyenv/versions/3.8.11/bin/python main.py 'open_url {query}'</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Open Url ...</string>
-				<key>title</key>
-				<string>afwf-example-open-url</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>3D612075-778A-4380-9A57-7F68CD611C4B</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -368,6 +358,55 @@
 			<string>2FE6CFA4-74F5-41A7-A2CA-43A4D999A92D</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>afwf-example-open-file</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>please wait ...</string>
+				<key>script</key>
+				<string>/Users/sanhehu/.pyenv/shims/python3.8 main.py 'open_file {query}'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Open File ...</string>
+				<key>title</key>
+				<string>afwf-example-open-file</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>87E1BBD9-44FE-4B2B-85C6-74D97F2A0CD1</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -402,8 +441,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>{var:open_file_path}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>CF6C4785-94C4-4F4E-B0DF-1A5050ABDB1B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
-				<true/>
+				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>2</integer>
 				<key>argumenttreatemptyqueryasnil</key>
@@ -415,7 +469,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-open-file</string>
+				<string>afwf-example-write-file</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -427,15 +481,15 @@
 				<key>runningsubtext</key>
 				<string>please wait ...</string>
 				<key>script</key>
-				<string>/Users/sanhehu/.pyenv/versions/3.8.11/bin/python main.py 'open_file {query}'</string>
+				<string>/Users/sanhehu/.pyenv/shims/python3.8 main.py 'write_file {query}'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Open File ...</string>
+				<string>Write File ...</string>
 				<key>title</key>
-				<string>afwf-example-open-file</string>
+				<string>afwf-example-write-file</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -444,22 +498,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>87E1BBD9-44FE-4B2B-85C6-74D97F2A0CD1</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>{var:open_file_path}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>CF6C4785-94C4-4F4E-B0DF-1A5050ABDB1B</string>
+			<string>C99C978D-7CE7-44C1-ACEE-8AC950EC48BB</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -505,11 +544,11 @@
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-write-file</string>
+				<string>afwf-example-read-file</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -521,15 +560,15 @@
 				<key>runningsubtext</key>
 				<string>please wait ...</string>
 				<key>script</key>
-				<string>/Users/sanhehu/.pyenv/versions/3.8.11/bin/python main.py 'write_file {query}'</string>
+				<string>/Users/sanhehu/.pyenv/shims/python3.8 main.py 'read_file {query}'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Write '{query}' to file.txt ...</string>
+				<string>Read File ...</string>
 				<key>title</key>
-				<string>afwf-example-write-file</string>
+				<string>afwf-example-read-file</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -538,7 +577,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>C99C978D-7CE7-44C1-ACEE-8AC950EC48BB</string>
+			<string>36368E07-6FB3-45F8-ACB5-D5AF2FDEA3BE</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -598,6 +637,55 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>afwf-example-error</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>please wait ...</string>
+				<key>script</key>
+				<string>/Users/sanhehu/.pyenv/shims/python3.8 main.py 'error {query}'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Read File ...</string>
+				<key>title</key>
+				<string>afwf-example-error</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>216C6557-8954-4EEB-B6DF-FD14A67D0A14</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -615,55 +703,6 @@
 			<string>553D013F-20CD-48BA-965E-8A2E558EAF19</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>2</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>keyword</key>
-				<string>afwf-example-read-file</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>please wait ...</string>
-				<key>script</key>
-				<string>/Users/sanhehu/.pyenv/versions/3.8.11/bin/python main.py 'read_file {query}'</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Read content of file.txt ...</string>
-				<key>title</key>
-				<string>afwf-example-read-file</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>36368E07-6FB3-45F8-ACB5-D5AF2FDEA3BE</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -711,7 +750,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-error</string>
+				<string>afwf-example-view-settings</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -723,15 +762,15 @@
 				<key>runningsubtext</key>
 				<string>please wait ...</string>
 				<key>script</key>
-				<string>/Users/sanhehu/.pyenv/versions/3.8.11/bin/python main.py 'error {query}'</string>
+				<string>/Users/sanhehu/.pyenv/shims/python3.8 main.py 'view_settings {query}'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Read File ...</string>
+				<string>View settings ...</string>
 				<key>title</key>
-				<string>afwf-example-error</string>
+				<string>afwf-example-view-settings</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -740,56 +779,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>216C6557-8954-4EEB-B6DF-FD14A67D0A14</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>2</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>keyword</key>
-				<string>afwf-example-memorize-cache</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>calculating ... the result will be cached for 5 sec</string>
-				<key>script</key>
-				<string>/Users/sanhehu/.pyenv/versions/3.8.11/bin/python main.py 'memorize_cache {query}'</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Please enter your key:</string>
-				<key>title</key>
-				<string>afwf-example-memorize-cache</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>BDADAC06-9A41-4493-9F92-FF209358E311</string>
+			<string>A28AF17A-0C73-4449-AC00-B431E49D2DB3</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -819,15 +809,15 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>please wait ...</string>
 				<key>script</key>
-				<string>/Users/sanhehu/.pyenv/versions/3.8.11/bin/python main.py 'set_settings {query}'</string>
+				<string>/Users/sanhehu/.pyenv/shims/python3.8 main.py 'set_settings {query}'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>set key value settings ...</string>
+				<string>Set settings ...</string>
 				<key>title</key>
 				<string>afwf-example-set-settings</string>
 				<key>type</key>
@@ -838,7 +828,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>9D46894F-2C87-4626-807D-FC3B0E0CE6E4</string>
+			<string>4F42FE89-D560-4F7A-A065-9AA044F5F664</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -854,11 +844,11 @@
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-view-settings</string>
+				<string>afwf-example-memorize-cache</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -868,26 +858,26 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>View Settings ...</string>
+				<string>please wait ...</string>
 				<key>script</key>
-				<string>/Users/sanhehu/.pyenv/versions/3.8.11/bin/python main.py 'view_settings {query}'</string>
+				<string>/Users/sanhehu/.pyenv/shims/python3.8 main.py 'memorize_cache {query}'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>View Settings ...</string>
+				<string>View cache value by key ...</string>
 				<key>title</key>
-				<string>afwf-example-view-settings</string>
+				<string>afwf-example-memorize-cache</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>3A99C445-7D87-4E68-AFEB-5BCF832A624A</string>
+			<string>A2CB6160-23D0-41E3-ABF9-4CC16F566F7D</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -901,7 +891,7 @@
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>570</integer>
+			<integer>465</integer>
 		</dict>
 		<key>2FE6CFA4-74F5-41A7-A2CA-43A4D999A92D</key>
 		<dict>
@@ -922,21 +912,14 @@
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>465</integer>
-		</dict>
-		<key>3A99C445-7D87-4E68-AFEB-5BCF832A624A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>65</integer>
-			<key>ypos</key>
-			<integer>885</integer>
+			<integer>360</integer>
 		</dict>
 		<key>3D612075-778A-4380-9A57-7F68CD611C4B</key>
 		<dict>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>45</integer>
 		</dict>
 		<key>427AF54F-215D-4B50-A8E0-756E0E5C3778</key>
 		<dict>
@@ -951,6 +934,13 @@
 			<integer>605</integer>
 			<key>ypos</key>
 			<integer>65</integer>
+		</dict>
+		<key>4F42FE89-D560-4F7A-A065-9AA044F5F664</key>
+		<dict>
+			<key>xpos</key>
+			<integer>65</integer>
+			<key>ypos</key>
+			<integer>675</integer>
 		</dict>
 		<key>553D013F-20CD-48BA-965E-8A2E558EAF19</key>
 		<dict>
@@ -971,7 +961,7 @@
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>255</integer>
+			<integer>150</integer>
 		</dict>
 		<key>8FA29A6B-5874-4EA1-860A-BBFCB29574D9</key>
 		<dict>
@@ -980,7 +970,14 @@
 			<key>ypos</key>
 			<integer>170</integer>
 		</dict>
-		<key>9D46894F-2C87-4626-807D-FC3B0E0CE6E4</key>
+		<key>A28AF17A-0C73-4449-AC00-B431E49D2DB3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>65</integer>
+			<key>ypos</key>
+			<integer>570</integer>
+		</dict>
+		<key>A2CB6160-23D0-41E3-ABF9-4CC16F566F7D</key>
 		<dict>
 			<key>xpos</key>
 			<integer>65</integer>
@@ -994,19 +991,12 @@
 			<key>ypos</key>
 			<integer>380</integer>
 		</dict>
-		<key>BDADAC06-9A41-4493-9F92-FF209358E311</key>
-		<dict>
-			<key>xpos</key>
-			<integer>65</integer>
-			<key>ypos</key>
-			<integer>675</integer>
-		</dict>
 		<key>C99C978D-7CE7-44C1-ACEE-8AC950EC48BB</key>
 		<dict>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>255</integer>
 		</dict>
 		<key>CF6C4785-94C4-4F4E-B0DF-1A5050ABDB1B</key>
 		<dict>
@@ -1017,8 +1007,6 @@
 		</dict>
 		<key>D800F848-747C-4DB0-98E8-CC31A9FA207C</key>
 		<dict>
-			<key>note</key>
-			<string>Debug Error</string>
 			<key>xpos</key>
 			<integer>695</integer>
 			<key>ypos</key>

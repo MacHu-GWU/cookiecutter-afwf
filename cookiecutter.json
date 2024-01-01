@@ -1,7 +1,8 @@
 {
-    "package_name": "your_package_name",
+    "package_name": "your_package_name_with_underscore",
     "github_username": "your_github_username",
-    "author_name": "Firstname Lastname",
-    "author_email": "name@email.com",
-    "dir_workflow": "/Users/username/path/to/Alfred.alfredpreferences/workflows/user.workflow.ABCD1234-A1B2-C3D4-E5F6-A1B2C3D4E5F6"
+    "author_name": "Author Name",
+    "author_email": "author@email.com",
+    "dir_workflow": "/Users/username/path/to/Alfred.alfredpreferences/workflows/user.workflow.ABCD1234-A1B2-C3D4-E5F6-A1B2C3D4E5F6",
+    "semantic_version": "0.1.1"
 }

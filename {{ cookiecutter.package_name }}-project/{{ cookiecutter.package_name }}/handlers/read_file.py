@@ -7,27 +7,27 @@
 配合使用, 永远验证.
 """
 
-import sys
-import afwf
-import attr
+import attrs
+import afwf.api as afwf
 
 from ..paths import dir_project_home
 
+path_file = dir_project_home / "file.txt"
 
-@attr.define
+
+@attrs.define
 class Handler(afwf.Handler):
     def main(self) -> afwf.ScriptFilter:
         sf = afwf.ScriptFilter()
-        path = dir_project_home / "file.txt"
-        if path.exists():
-            content = path.read_text()
+        if path_file.exists():
+            content = path_file.read_text()
             item = afwf.Item(
-                title=f"content of file.txt is",
+                title=f"content of {path_file} is",
                 subtitle=content,
             )
         else:
             item = afwf.Item(
-                title="file.txt does not exist!",
+                title=f"{path_file} does not exist!",
             )
             item.set_icon(afwf.IconFileEnum.error)
 

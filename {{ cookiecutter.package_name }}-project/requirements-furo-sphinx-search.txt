@@ -1,0 +1,2 @@
+# enable readthedocs sphinx search for furo theme
+furo-sphinx-search @ git+https://github.com/{{ cookiecutter.github_username }}/furo-sphinx-search@main

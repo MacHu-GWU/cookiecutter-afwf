@@ -32,13 +32,14 @@ Python 逻辑. 而这个 bash command 就是 item 的 argument. 这个 ``WriteRe
 """
 
 import sys
-import afwf
-import attr
+
+import attrs
+import afwf.api as afwf
 
 from ..paths import dir_project_home
 
 
-@attr.define
+@attrs.define
 class WriteRequestHandler(afwf.Handler):
     def main(self, content: str) -> afwf.ScriptFilter:
         sf = afwf.ScriptFilter()
@@ -58,13 +59,15 @@ class WriteRequestHandler(afwf.Handler):
 write_request_handler = WriteRequestHandler(id="write_request_handler")
 
 
-@attr.define
+path_file = dir_project_home / "file.txt"
+
+
+@attrs.define
 class Handler(afwf.Handler):
     def main(self, content: str) -> afwf.ScriptFilter:
         sf = afwf.ScriptFilter()
-        path = dir_project_home / "file.txt"
         item = afwf.Item(
-            title=f"Write {content!r} to {path.basename}",
+            title=f"Write {content!r} to {path_file}",
         )
         cmd = write_request_handler.encode_run_script_command(
             bin_python=sys.executable,
@@ -72,7 +75,7 @@ class Handler(afwf.Handler):
         )
         item.run_script(cmd)
         item.send_notification(
-            title=f"Write {content!r} to {path.basename}",
+            title=f"Write {content!r} to {path_file}",
             subtitle="success",
         )
         sf.items.append(item)
