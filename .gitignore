@@ -1,13 +1,6 @@
 # User Settings
 tmp/
-
-requirements-main.txt
-requirements-dev.txt
-requirements-test.txt
-requirements-doc.txt
-
 .poetry-lock-hash.json
-.current-env-name.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

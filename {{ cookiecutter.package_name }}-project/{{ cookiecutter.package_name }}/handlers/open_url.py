@@ -11,7 +11,7 @@
 
 在 Alfred Workflow 的 Canvas 界面中 Script Filter 的设置如下:
 
-- Keyword: afwf-example-open-url, No Argument
+- Keyword: {{ cookiecutter.package_name_slugify }}-open-url, No Argument
 - Language: /bin/bash
 - Script: python main.py 'open_url {query}', 这里我们没有勾选 Alfred filters results. 因为我们不需要 Alfred 帮我们过滤结果.
 - 连接一个 Utilities - Conditional 的控件, 条件是 ``{var:open_url}`` is equal to ``y``.

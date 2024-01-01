@@ -21,7 +21,7 @@ Python 逻辑. 而这个 bash command 就是 item 的 argument. 这个 ``WriteRe
 
 在 Alfred Workflow 的 Canvas 界面中 Script Filter 的设置如下:
 
-- Keyword: afwf-example-write-file, Argument Required
+- Keyword: {{ cookiecutter.package_name_slugify }}-write-file, Argument Required
 - Language: /bin/bash
 - Script: python main.py 'write_file {query}'
 - 连接一个 Utilities - Conditional 的控件, 条件是 ``{var:run_script}`` is equal to ``y``.
@@ -60,6 +60,7 @@ write_request_handler = WriteRequestHandler(id="write_request_handler")
 
 
 path_file = dir_project_home / "file.txt"
+path_file.parent.mkdir(parents=True, exist_ok=True)
 
 
 @attrs.define

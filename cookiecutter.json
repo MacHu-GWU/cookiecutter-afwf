@@ -1,8 +1,9 @@
 {
     "package_name": "your_package_name_with_underscore",
+    "package_name_slugify": "your-package-name-with-underscore",
     "github_username": "your_github_username",
     "author_name": "Author Name",
     "author_email": "author@email.com",
-    "dir_workflow": "/Users/username/path/to/Alfred.alfredpreferences/workflows/user.workflow.ABCD1234-A1B2-C3D4-E5F6-A1B2C3D4E5F6",
+    "dir_workflow": "/Users/sanhehu/path/to/Alfred.alfredpreferences/workflows/user.workflow.ABCD1234-A1B2-C3D4-E5F6-A1B2C3D4E5F6",
     "semantic_version": "0.1.1"
 }

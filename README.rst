@@ -52,3 +52,5 @@ Then it will generate a Git repo folder structures like this:
 - ``/.coveragerc``: code coverage test config
 - ``/pyproject.toml``: Python project metadata
 - ``/main.py``: Alfred Workflow entry point script
+
+You may need to edit the ``pyproject.toml`` to set your Python version and add more dependencies for your project.

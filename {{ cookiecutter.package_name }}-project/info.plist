@@ -262,7 +262,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-open-url</string>
+				<string>{{ cookiecutter.package_name_slugify }}-open-url</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -282,7 +282,7 @@
 				<key>subtext</key>
 				<string>Open Url ...</string>
 				<key>title</key>
-				<string>afwf-example-open-url</string>
+				<string>{{ cookiecutter.package_name_slugify }}-open-url</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -375,7 +375,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-open-file</string>
+				<string>{{ cookiecutter.package_name_slugify }}-open-file</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -395,7 +395,7 @@
 				<key>subtext</key>
 				<string>Open File ...</string>
 				<key>title</key>
-				<string>afwf-example-open-file</string>
+				<string>{{ cookiecutter.package_name_slugify }}-open-file</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -469,7 +469,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-write-file</string>
+				<string>{{ cookiecutter.package_name_slugify }}-write-file</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -489,7 +489,7 @@
 				<key>subtext</key>
 				<string>Write File ...</string>
 				<key>title</key>
-				<string>afwf-example-write-file</string>
+				<string>{{ cookiecutter.package_name_slugify }}-write-file</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -548,7 +548,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-read-file</string>
+				<string>{{ cookiecutter.package_name_slugify }}-read-file</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -568,7 +568,7 @@
 				<key>subtext</key>
 				<string>Read File ...</string>
 				<key>title</key>
-				<string>afwf-example-read-file</string>
+				<string>{{ cookiecutter.package_name_slugify }}-read-file</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -650,7 +650,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-error</string>
+				<string>{{ cookiecutter.package_name_slugify }}-error</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -670,7 +670,7 @@
 				<key>subtext</key>
 				<string>Read File ...</string>
 				<key>title</key>
-				<string>afwf-example-error</string>
+				<string>{{ cookiecutter.package_name_slugify }}-error</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -750,7 +750,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-view-settings</string>
+				<string>{{ cookiecutter.package_name_slugify }}-view-settings</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -770,7 +770,7 @@
 				<key>subtext</key>
 				<string>View settings ...</string>
 				<key>title</key>
-				<string>afwf-example-view-settings</string>
+				<string>{{ cookiecutter.package_name_slugify }}-view-settings</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -799,7 +799,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-set-settings</string>
+				<string>{{ cookiecutter.package_name_slugify }}-set-settings</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -819,7 +819,7 @@
 				<key>subtext</key>
 				<string>Set settings ...</string>
 				<key>title</key>
-				<string>afwf-example-set-settings</string>
+				<string>{{ cookiecutter.package_name_slugify }}-set-settings</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -848,7 +848,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>afwf-example-memorize-cache</string>
+				<string>{{ cookiecutter.package_name_slugify }}-memorize-cache</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -868,7 +868,7 @@
 				<key>subtext</key>
 				<string>View cache value by key ...</string>
 				<key>title</key>
-				<string>afwf-example-memorize-cache</string>
+				<string>{{ cookiecutter.package_name_slugify }}-memorize-cache</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
