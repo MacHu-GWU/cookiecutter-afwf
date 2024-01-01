@@ -24,7 +24,7 @@ maker = Maker.new(
     # define the pair of ``concrete string`` and ``parameter name``
     mapper=[
         ("afwf_example", "package_name", "your_package_name_with_underscore"),
-        ("afwf-example", "package_name_slugify", "your-package-name-with-underscore"),
+        ("afwf-example", "package_name_slugify", "your-package-name-with-hyphen"),
         ("MacHu-GWU", "github_username", "your_github_username"),
         ("Sanhe Hu", "author_name", "Author Name"),
         ("husanhe@gmail.com", "author_email", "author@email.com"),

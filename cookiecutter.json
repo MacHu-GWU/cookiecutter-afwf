@@ -1,6 +1,6 @@
 {
     "package_name": "your_package_name_with_underscore",
-    "package_name_slugify": "your-package-name-with-underscore",
+    "package_name_slugify": "your-package-name-with-hyphen",
     "github_username": "your_github_username",
     "author_name": "Author Name",
     "author_email": "author@email.com",
