@@ -1,3 +1,9 @@
+.. image:: https://img.shields.io/badge/Release_History!--None.svg?style=social
+    :target: https://github.com/MacHu-GWU/cookiecutter-afwf/blob/main/release-history.rst
+
+.. image:: https://img.shields.io/badge/STAR_Me_on_GitHub!--None.svg?style=social
+    :target: https://github.com/MacHu-GWU/cookiecutter-afwf
+
 Welcome to ``cookiecutter-afwf`` Documentation
 ==============================================================================
 This is a `cookiecutter <https://github.com/cookiecutter/cookiecutter>`_ project template for advanced `Alfred Workflow <https://www.alfredapp.com/workflows/>`_ development in Python.
