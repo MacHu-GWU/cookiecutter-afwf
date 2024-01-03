@@ -28,7 +28,7 @@ Or, you can use a specific released version, you can find `full list of release 
 
     cookiecutter https://github.com/MacHu-GWU/cookiecutter-afwf --checkout tags/${version}
 
-For example (v3 is the latest as of 2024-01-01)
+For example (v3 is the latest as of 2024-01-02)
 
 .. code-block:: bash
 
